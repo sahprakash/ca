@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fondamento:ital@0;1&family=Playfair+Display&family=Tektur&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <link href="utils.css" rel="stylesheet" />
+
+    <title>project-02</title>
+  </head>
+  <body>
+    <div class="gradient">
+    <h1 class="text-center">Welcome to Calculate me!</h1>
+    <div class="container felx-col flex mx-auto align-item">
+      <div class="row">
+        <input class="input" type="text" />
+      </div>
+      <div class="row">
+        <button class="button deletAll">C</button>
+        <!--<button class="button deletOneByOne">d</button> -->
+        <button class="button">%</button>
+        <button class="button">00</button>
+        <button class="button">*</button>
+      </div>
+      <div class="row">
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button">-</button>
+      </div>
+      <div class="row">
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button">+</button>
+      </div>
+      <div class="row">
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">/</button>
+      </div>
+
+
+      <div class="row">
+        <button class="button */btn0">0</button>
+        
+<!--
+        <button class="deleteOne">&#9003;</button>-->
+
+        <button class="button" data-action="backspace">E</button>
+
+        <button class="button">.</button>
+        <button class="button">=</button>
+      </div>
+    </div>
+  </div>
+    <script src="calc.js"></script>
+  </body>
+</html>

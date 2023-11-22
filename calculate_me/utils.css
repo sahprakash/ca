@@ -1,0 +1,27 @@
+.text-center {
+  letter-spacing: 1.2px;
+  text-align: center;
+  font-family: "Playfair Display";
+  color: rgb(15, 15, 12);
+  text-shadow: 11px 8px 9px rgba(0, 0, 0, 0.539),
+    2px 2px 3px rgba(0, 0, 0, 0.539);
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+.felx-col {
+  flex-direction: column;
+}
+.align-item {
+  align-items: center;
+  justify-content: center;
+}
+.btn0 {
+  width: 138px;
+  border-radius: 40px;
+}
